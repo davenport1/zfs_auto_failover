@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "zfs_node",
+    "zfs_monitor",
+    "zfs_af_shared"
+]
+
+resolver = "2"
