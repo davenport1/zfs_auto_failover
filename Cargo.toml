@@ -3,7 +3,7 @@
 members = [
     "zfs_node",
     "zfs_monitor",
-    "zfs_af_shared"
+    "zfs_protos",
 ]
 
 resolver = "2"
