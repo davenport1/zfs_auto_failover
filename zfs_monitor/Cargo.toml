@@ -11,3 +11,11 @@ zfs_protos = { path = "../zfs_protos" }
 
 [build-dependencies]
 tonic-build = "0.12.1"
+
+[[bin]]
+    name = "monitor_client"
+    path = "src/grpc/monitor_client.rs"
+
+[[bin]]
+    name = "monitor_server"
+    path = "src/grpc/monitor_server.rs"

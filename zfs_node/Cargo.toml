@@ -11,3 +11,11 @@ zfs_protos = { path = "../zfs_protos" }
 
 [build-dependencies]
 tonic-build = "0.12.1"
+
+[[bin]]
+    name = "node_client"
+    path = "src/grpc/node_client.rs"
+
+[[bin]]
+    name = "node_server"
+    path = "src/grpc/node_server.rs"
